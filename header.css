@@ -1,0 +1,55 @@
+header{
+    height: 125px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    padding-left: 80px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 400;
+}
+
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding-right: 80px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 400;
+}
+
+.points ul{
+    display: flex;
+    list-style: none;
+    padding-right: 50px;
+}
+
+.points li{
+    padding: 50px;
+    color: var(--accent-color);
+    
+}
+
+.button{ 
+    border-style: solid;
+    border-color: var(--accent-color);
+    height:69px;
+    width:215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*semi-bold, bold, regular
+
+
+
